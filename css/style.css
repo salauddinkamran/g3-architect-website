@@ -147,6 +147,10 @@ header {
   gap: 100px;
 }
 
+.feature-content-box, .feature-img-box {
+  width: 50%;
+}
+
 #features-section-title {
   border-left: 5px solid #ff900E;
   padding-left: 20px;
@@ -164,6 +168,25 @@ header {
   font-size: 1.25rem;
   margin: 0;
 }
+
+.featured-architect {
+  width: 100%;
+}
+
+#experience-badge {
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+
+#experience-year {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+
 
 
 /* facts section Style */
@@ -216,4 +239,19 @@ header {
 
 .sponsor-companies img {
   filter: grayscale(100%);
+}
+
+
+/* footer style */
+footer {
+  background-color: rgba(255, 144, 14, .1);
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+footer p {
+  text-align: center;
+  padding: 20px;
+  font-weight: 500;
 }
