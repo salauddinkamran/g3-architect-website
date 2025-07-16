@@ -176,3 +176,20 @@ header {
   font-weight: 600;
   margin-top: 10px;
 }
+
+
+/* sponsor style */
+.sponsors-info {
+  max-width: 530px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.sponsor-companies {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.sponsor-companies img {
+  filter: grayscale(100%);
+}
