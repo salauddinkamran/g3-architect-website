@@ -1,0 +1,21 @@
+/* mobile size device */
+@media screen and (max-width: 576px) {
+  .navbar, .nav-links, .teams {
+    flex-direction: column;
+  }
+  .nav-links {
+    gap: 20px;
+  }
+
+  .team-img-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* medium size device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .teams {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

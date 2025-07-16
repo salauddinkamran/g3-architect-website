@@ -1,0 +1,178 @@
+/* Google font link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global Css */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+
+/* shared style */
+.bg-light {
+  background-color: rgba(255, 144, 14, .1);
+}
+
+.display-flex {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-gray {
+  color: #424242;
+}
+
+.text-light-gray {
+  color: #727272;
+}
+
+.text-primary {
+  color: #ff900E;
+}
+
+.btn-primary {
+  background-color: #ff900E;
+  color: #fff;
+  padding: 20px 30px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 10px;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 130px;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+/* header style */
+header {
+  padding-bottom: 40px;
+}
+
+.navbar, .banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+/* navbar style */
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/* banner style */
+.banner-content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.banner-description {
+  font-size: 17px;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+
+/* team and feature related styles */
+.teams {
+  align-items: center;
+  gap: 100px;
+}
+
+.team-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.our-features {
+  max-width: 530px;
+}
+
+.quick {
+  font-weight: 500;
+}
+
+
+/* facts section Style */
+
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+}
+
+.fact-description {
+  width: 530px;
+}
+
+.fact-card {
+  border: 1px solid #ff900E;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fact-number {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin: 5px 0 10px 0;
+}
+
+.fact-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
